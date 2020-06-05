@@ -1,0 +1,26 @@
+--Module 1 Coding Questions
+/*For all of the questions in this quiz, we are using the Chinook database. 
+All of the interactive code blocks have been setup to retrieve data only from this database.*/
+ 
+-------------------------------------------------------------------------------------------------------------------------------------
+#1 Question
+--Retrieve all the records from the Employees table.
+
+select * from employees;
+
+
+_____________________________________________________________________________________________________________________________________
+#2 Question
+--Retrieve the FirstName, LastName, Birthdate, Address, City, and State from the Employees table.
+
+select firstname from employees where birthdate='1965-03-03 00:00:00';
+
+____________________________________________________________________________________________________________________________________
+#3 Question
+--Retrieve all the columns from the Tracks table, but only return 20 rows.
+
+select * from tracks limit 20;
+
+--375418
+
+------------------------------------------------------------------------------------------------------------------------------------
